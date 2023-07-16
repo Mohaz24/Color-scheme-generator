@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Covered+By+Your+Grace&family=Dancing+Script&family=Gloria+Hallelujah&family=Indie+Flower&family=Inter:wght@100;400;500&family=Kalam:wght@300&family=Karla:wght@200;400;800&family=Kaushan+Script&family=Montserrat:wght@100&family=Orbitron:wght@400;500;800&family=Poppins:ital,wght@0,100;0,400;0,600;1,100&family=Roboto:wght@100;700&family=Shadows+Into+Light&family=Smythe&family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">Colour scheme <br> Generator 🎨</h1>
+    </header>
+    <section>
+      <div id="container">
+        <input type="color" id="colors" />
+        <select name="colors" class="change" id="palettes">
+          <option value="monochrome">monochrome</option>
+          <option value="monochrome-dark">monochrome - dark</option>
+          <option value="monochrome-light">monochrome - light</option>
+          <option value="analogic">analogic</option>
+          <option value="complement">complement</option>
+          <option value="triad">triad</option>
+          <option value="quad">quad</option>
+        </select>
+        <button id="btn">Get colour scheme</button>
+      </div>
+    </section>
+    <section id="hex-colors">
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
